@@ -795,12 +795,20 @@ Blog CSS
 	margin-bottom: 50px;
 	float: left;
 }
-.blog-item-content h5 {
+.blog-item-content h4 {
 	font-weight: bold;
+}
+.blog-item-content span{
+	float: right;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: .9em;
+	line-height: 1.6em;
 }
 .blog-item-content p {
 	padding: 0px 5px 5px 0px;
 	text-align: justify;
+	font-size: .8em;
 }
 #blog .readmore {
 	float: left;
