@@ -183,13 +183,13 @@ blockquote {
 	font-style:italic;
 	font-size:20px;
 	margin-right:20px;
-	padding-left:20px;
-	margin-left:20px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	padding-left:30px;
+	/*margin-left:20px;*/
+	/*margin-top: 60px;*/
+	/*margin-bottom: 60px;*/
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	color:#333;
-	text-align: center;
+	text-align: left;
 	background-image: url(../images/blockquote.png);
 	background-repeat: no-repeat;
 	background-position: left top;
@@ -313,8 +313,13 @@ Header & Menu CSS
 #logo {
 	float: left;
 	width: 100px;
-	padding: 20px 0 10px 40px;
+	padding: 40px 0 10px 40px;
 }
+
+#logo img{
+	width: 100%;
+}
+
 #header-text {
 	width: 480px;
 	padding-top: 40px;
@@ -768,22 +773,23 @@ Blog CSS
 	margin-bottom: 100px;
 }
 .blog-item-info {
-	padding: 10px 0 15px 0;
+	padding: 10px 0 10px 0;
 	height: 15px;
-	width: 400px;
-	float: right;
+	/*width: 400px;*/
+	/*float: right;*/
 }
 .blog-item {
 	clear: both;
 	width: 720px;
-	height: 270px;
+	margin-bottom: 50px;
+	/*height: 270px;*/
 }
 .blog-item-content {
-	width: 400px;
+	/*width: 400px;*/
 	margin-top: 0px;
-	margin-left: 15px;
-	margin-bottom: 50px;
-	float: right;
+	/*margin-left: 15px;*/
+	margin-bottom: 10px;
+	/*float: right;*/
 }
 .blog-item img {
 	margin-bottom: 50px;
@@ -798,7 +804,7 @@ Blog CSS
 }
 #blog .readmore {
 	float: left;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .user {
 	background-image: url(../images/user.png);
@@ -1035,8 +1041,8 @@ Contact CSS
 }
 #contactinfo {
 	padding-right: 10px;
-	padding-top: 80px;
-	float: right;
+	/*padding-top: 30px;*/
+	/*float: left;*/
 }
 /******************************************************************
 This is the buttons and inputs CSS
@@ -1172,4 +1178,27 @@ This is the CSS for the social links
 .facebook_small a:hover {
 	background-position: 0 -17px;
 	color: #444444;
+}
+
+.dp {
+	width: 40%;
+	display: inline-block;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.dp img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.aboutme {
+	width: 59%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	padding: 10px;
+	box-sizing: border-box;
 }
